@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class GETResquestNonBDDTestNG {
     @Test
-    public void testGetAllBookingPositive(){
+    public void testGetAllBookingPositive() {
 
 
         RequestSpecification r = RestAssured.given();
@@ -17,9 +17,8 @@ public class GETResquestNonBDDTestNG {
         r.then().log().all().statusCode(200);
 
 
-
-
     }
+
     @Test
     public void testGetAllBookingPositiveAll() {
 
@@ -31,5 +30,17 @@ public class GETResquestNonBDDTestNG {
         a.when().log().all().get();
         a.then().log().all().statusCode(200);
 
+    }
+
+    @Test
+    public void testGetAllBookingNegative() {
+
+
+        RequestSpecification b = RestAssured.given();
+        b.baseUri("https://api.zippopotam.us");
+        b.basePath("/IN/-1");
+
+        b.when().log().all().get();
+        b.then().log().all().statusCode(200);
     }
 }
