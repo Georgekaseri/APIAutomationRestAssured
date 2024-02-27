@@ -25,7 +25,7 @@ public class GETResquestNonBDDTestNG {
 
         RequestSpecification a = RestAssured.given();
         a.baseUri("https://api.zippopotam.us");
-        a.basePath("/IN");
+        a.basePath("/IN/1093");
 
         a.when().log().all().get();
         a.then().log().all().statusCode(200);
@@ -38,9 +38,10 @@ public class GETResquestNonBDDTestNG {
 
         RequestSpecification b = RestAssured.given();
         b.baseUri("https://api.zippopotam.us");
-        b.basePath("/IN/-1");
+        b.basePath("/IN/-");
 
         b.when().log().all().get();
+
         b.then().log().all().statusCode(200);
     }
 }
