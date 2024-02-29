@@ -5,6 +5,19 @@
         <classes>
             <class name="org.example.CRUD.POST.NonBDDStylePOST">
             </class>
+
+            <class name="org.example.CRUD.PATCH.NonBDDPATCH">
+            </class>
+
+            <class name="org.example.CRUD.GET.RATestCase1">
+            </class>
+
+            <class name="org.example.CRUD.PUT.NonBDDPUT">
+            </class>
+
+            <class name="org.example.CRUD.DELETE.NonBDDDelete">
+            </class>
+
         </classes>
     </test>
 </suite>

@@ -59,7 +59,7 @@ public class RATestCase1 {
 RestAssured
         .given()
         .baseUri("https://restful-booker.herokuapp.com")
-        .basePath("/booking/527")
+        .basePath("/booking/557")
 
         .when().log().all()
         .get()

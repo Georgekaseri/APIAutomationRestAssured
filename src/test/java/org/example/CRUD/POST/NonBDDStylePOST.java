@@ -12,8 +12,9 @@ public class NonBDDStylePOST {
     RequestSpecification requestSpecification;
     ValidatableResponse validatableResponse;
     String token = "a0824bef1b74a1f";
+
     @Test
-    public void testNonBDDStylePOSTPositive(){
+    public void testNonBDDStylePOSTPositive() {
 
 
         String payload = "{\n" +
