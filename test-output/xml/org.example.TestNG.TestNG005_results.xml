@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.078">
+           time="0.731">
     <properties></properties>
 
 
 
             <testcase
-                name="testPutRequest"
-                time="1.078"
-                classname="org.example.TestNG.TestNG002">
+                name="testPUTRequest"
+                time="0.731"
+                classname="org.example.TestNG.TestNG005">
             </testcase>
 </testsuite>

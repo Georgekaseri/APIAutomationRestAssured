@@ -50,7 +50,7 @@ public class TestNG002 {
     @Test
     public void testPutRequest(){
         String jsonString = "{\n" +
-                "    \"firstname\" : \"George\",\n" +
+                "    \"firstname\" : \"Hasan\",\n" +
                 "    \"lastname\" : \"GK\",\n" +
                 "    \"totalprice\" : 1456,\n" +
                 "    \"depositpaid\" : true,\n" +
@@ -62,7 +62,7 @@ public class TestNG002 {
                 "}";
 
         requestSpecification.baseUri("https://restful-booker.herokuapp.com");
-        requestSpecification.basePath("/booking/2288");
+        requestSpecification.basePath("/booking/1456");
         requestSpecification.contentType(ContentType.JSON);
         requestSpecification.cookie("token", token);
 
@@ -77,7 +77,7 @@ public class TestNG002 {
         // Get Validatable response to perform  validation
         validatableResponse = response.then().log().all();
         validatableResponse.statusCode(200);
-        validatableResponse.body("firstname", Matchers.equalTo("George"));
+        validatableResponse.body("firstname", Matchers.equalTo("Hasan"));
         validatableResponse.body("lastname", Matchers.equalTo("GK"));
 
 

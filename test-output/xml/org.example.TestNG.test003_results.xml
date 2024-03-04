@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomationRestAssured"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="0.023">
+    <properties></properties>
+
+            <testcase
+                name="getBookingID"
+                time="0.023"
+                classname="org.example.TestNG.test003">
+
+            <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;io.restassured.specification.RequestSpecification.baseUri(String)&quot; because &quot;this.requestSpecification&quot; is null">
+                <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.baseUri(String)" because "this.requestSpecification" is null
+                org.example.TestNG.test003.getBookingID(test003.java:71)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)org.testng.TestRunner.beforeRun(TestRunner.java:650)org.testng.TestRunner.run(TestRunner.java:612)org.testng.SuiteRunner.runTest(SuiteRunner.java:443)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)org.testng.SuiteRunner.run(SuiteRunner.java:336)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1228)org.testng.TestNG.runSuites(TestNG.java:1134)org.testng.TestNG.run(TestNG.java:1101)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="getToken"
+                time="0.0"
+                classname="org.example.TestNG.test003">
+            </testcase>
+            <testcase
+                name="testPutRequest"
+                time="0.0"
+                classname="org.example.TestNG.test003">
+            </testcase>
+
+</testsuite>

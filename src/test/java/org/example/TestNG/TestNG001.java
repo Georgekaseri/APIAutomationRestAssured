@@ -50,6 +50,6 @@ public class TestNG001 {
     }
     @AfterSuite
     void demo9(){
-        System.out.println("AfterSuite");
+        System.out.println("Af terSuite");
     }
 }
