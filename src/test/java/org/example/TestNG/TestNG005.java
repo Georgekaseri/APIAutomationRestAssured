@@ -112,4 +112,43 @@ public class TestNG005 {
         validatableResponse.body("lastname", Matchers.equalTo("GK"));
 
     }
+
+
+    @Test
+    public void testPUTRequestFirstName(){
+        System.out.println(" *********************** Test Case PUT Request *********************** ");
+        String jsonString = "{\n" +
+                "    \"firstname\" : \"Hasan\",\n" +
+                "    \"lastname\" : \"GK\",\n" +
+                "    \"totalprice\" : 1456,\n" +
+                "    \"depositpaid\" : true,\n" +
+                "    \"bookingdates\" : {\n" +
+                "        \"checkin\" : \"2018-01-01\",\n" +
+                "        \"checkout\" : \"2019-01-01\"\n" +
+                "    },\n" +
+                "    \"additionalneeds\" : \"Breakfast\"\n" +
+                "}";
+
+        requestSpecification.baseUri("https://restful-booker.herokuapp.com");
+        requestSpecification.basePath("/booking/" + bookingID);
+        requestSpecification.contentType(ContentType.JSON);
+        requestSpecification.cookie("token", token);
+
+        requestSpecification.body(jsonString).log().all();
+
+
+
+        //Calling put method  on URI. After hitting we get Response
+        Response response = requestSpecification.when().put();
+        System.out.println(response.asString());
+
+        // Get Validatable response to perform  validation
+        validatableResponse = response.then().log().all();
+        validatableResponse.statusCode(200);
+
+
+        String firstName = response.then().log().all().extract().path("firstname");
+        assertThat(firstName).isNotNull().isNotBlank().isNotEmpty();
+
+    }
 }

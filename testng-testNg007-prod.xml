@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/georg/APIAutomationRestAssured">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+                <include name="QA"></include>
+
+
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.TestNG.TestNG007"></class>
+            <class name="org.example.TestNG.TestNG006"></class>
+            <class name="org.example.TestNG.TestNG005"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="C:/Users/georg/APIAutomationRestAssured"
-           tests="1"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.731">
+           time="1.637">
     <properties></properties>
 
 
 
             <testcase
                 name="testPUTRequest"
-                time="0.731"
+                time="0.936"
+                classname="org.example.TestNG.TestNG005">
+            </testcase>
+            <testcase
+                name="testPUTRequestFirst"
+                time="0.701"
                 classname="org.example.TestNG.TestNG005">
             </testcase>
 </testsuite>
