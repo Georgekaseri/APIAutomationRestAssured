@@ -12,6 +12,6 @@
             <testcase
                 name="testPutRequest"
                 time="1.078"
-                classname="org.example.TestNG.TestNG002">
+                classname="org.example.TestNG.testngexample.TestNG002">
             </testcase>
 </testsuite>

@@ -1,4 +1,4 @@
-package org.example.TestNG;
+package org.example.TestNG.testngexample;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

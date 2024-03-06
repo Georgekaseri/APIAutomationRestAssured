@@ -7,12 +7,12 @@
                 <include name="QA"></include>
 
 
+
             </run>
         </groups>
-        <classes>
-            <class name="org.example.TestNG.TestNG007">
 
-            </class>
+        <classes>
+            <class name="org.example.TestNG.testngexample.TestNG007"></class>
         </classes>
     </test>
 </suite>

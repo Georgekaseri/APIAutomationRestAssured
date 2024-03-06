@@ -10,7 +10,7 @@
             </run>
         </groups>
         <classes>
-            <class name="org.example.TestNG.TestNG007">
+            <class name="org.example.TestNG.testngexample.TestNG007">
 
             </class>
         </classes>

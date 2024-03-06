@@ -12,11 +12,11 @@
             <testcase
                 name="testPUTRequest"
                 time="0.936"
-                classname="org.example.TestNG.TestNG005">
+                classname="org.example.TestNG.testngexample.TestNG005">
             </testcase>
             <testcase
                 name="testPUTRequestFirst"
                 time="0.701"
-                classname="org.example.TestNG.TestNG005">
+                classname="org.example.TestNG.testngexample.TestNG005">
             </testcase>
 </testsuite>
