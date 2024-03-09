@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.008">
+           time="0.006">
     <properties></properties>
 
 
 
             <testcase
-                name="demo3"
-                time="0.001"
+                name="demo1"
+                time="0.005"
                 classname="org.example.TestNG.testngexample.PriorityDemo">
             </testcase>
             <testcase
@@ -20,8 +20,8 @@
                 classname="org.example.TestNG.testngexample.PriorityDemo">
             </testcase>
             <testcase
-                name="demo1"
-                time="0.007"
+                name="demo3"
+                time="0.001"
                 classname="org.example.TestNG.testngexample.PriorityDemo">
             </testcase>
 </testsuite>

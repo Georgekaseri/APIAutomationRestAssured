@@ -2,7 +2,7 @@ package org.example.TestNG.testngexample;
 
 import org.testng.annotations.Test;
 
-public class PriorityDemo1 {
+public class PriorityDemo {
 
     @Test(priority = 1, groups = {"reg"})
     void demo1(){
@@ -14,7 +14,7 @@ public class PriorityDemo1 {
         System.out.println("B");
     }
 
-    @Test
+    @Test(priority = 3)
     void demo3(){
         System.out.println("C");
     }
