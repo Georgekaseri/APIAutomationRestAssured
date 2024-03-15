@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.185">
+           time="2.436">
     <properties></properties>
 
 
 
             <testcase
                 name="testToken"
-                time="2.185"
+                time="2.436"
                 classname="org.example.CRUD.POST.TokenPOST">
             </testcase>
 </testsuite>

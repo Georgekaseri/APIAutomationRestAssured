@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomationRestAssured"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.007">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testMethods1"
+                time="0.003"
+                classname="org.example.TestNG.parrallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods5"
+                time="0.001"
+                classname="org.example.TestNG.parrallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods4"
+                time="0.001"
+                classname="org.example.TestNG.parrallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods6"
+                time="0.001"
+                classname="org.example.TestNG.parrallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods3"
+                time="0.001"
+                classname="org.example.TestNG.parrallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods2"
+                time="0.000"
+                classname="org.example.TestNG.parrallel.MainClass">
+            </testcase>
+</testsuite>

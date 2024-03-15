@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.365">
+           time="0.000">
     <properties></properties>
 
 
 
             <testcase
-                name="testNonBDDStylePOSTPositive"
-                time="2.365"
-                classname="org.example.CRUD.POST.NonBDDStylePOST">
+                name="testPutRequest"
+                time="0.000"
+                classname="org.example.TestNG.testngexample.TestNG003">
             </testcase>
 </testsuite>

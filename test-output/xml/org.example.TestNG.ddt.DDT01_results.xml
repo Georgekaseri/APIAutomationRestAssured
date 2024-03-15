@@ -4,24 +4,24 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.004">
+           time="0.005">
     <properties></properties>
 
 
 
             <testcase
                 name="testLogin"
-                time="0.003"
-                classname="org.example.TestNG.ddt.DDT01">
-            </testcase>
-            <testcase
-                name="testLogin"
-                time="0.000"
+                time="0.004"
                 classname="org.example.TestNG.ddt.DDT01">
             </testcase>
             <testcase
                 name="testLogin"
                 time="0.001"
+                classname="org.example.TestNG.ddt.DDT01">
+            </testcase>
+            <testcase
+                name="testLogin"
+                time="0.000"
                 classname="org.example.TestNG.ddt.DDT01">
             </testcase>
 </testsuite>

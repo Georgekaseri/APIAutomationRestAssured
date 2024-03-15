@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+<listeners>
+    <listener class-name="org.example.TestNG.ListenerDemo.CustomListener"></listener>
+</listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/georg/APIAutomationRestAssured">
+
+        <groups>
+            <run>
+                <include name="Sanity"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.example.TestNG.ListenerDemo.TC001">
+
+            </class>
+        </classes>
+    </test>
+</suite>

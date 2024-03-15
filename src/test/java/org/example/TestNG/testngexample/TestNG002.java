@@ -62,7 +62,7 @@ public class TestNG002 {
                 "}";
 
         requestSpecification.baseUri("https://restful-booker.herokuapp.com");
-        requestSpecification.basePath("/booking/1456");
+        requestSpecification.basePath("/booking/2958");
         requestSpecification.contentType(ContentType.JSON);
         requestSpecification.cookie("token", token);
 

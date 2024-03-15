@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.365">
+           time="0.062">
     <properties></properties>
 
 
 
             <testcase
-                name="testNonBDDStylePOSTPositive"
-                time="2.365"
-                classname="org.example.CRUD.POST.NonBDDStylePOST">
+                name="test1"
+                time="0.062"
+                classname="org.example.Misc.example.SimpleSer">
             </testcase>
 </testsuite>
